@@ -36,33 +36,38 @@ Two main types of machine learning algorithms:
 	* Clustering problems: When we want to discover the inherent groupings in the data e.g., grouping customers by purchasing behavior.
 	* Association problems: When we want to discover rules that describe large portions of our data e.g., people that buy X also tend to buy Y.
 
-![Figure 1. Supervised learning versus unsupervised learning](photos/sup-vs-unsup.png)
-
-### Figure 1. Supervised learning versus unsupervised learning
+<div align="center">
+	<img src="photos/sup-vs-unsup.png">
+	<h3>Figure 1. Supervised learning versus unsupervised learning</h3>
+</div>
 
 ## Linear Regression with One Variable
 
 In a linear regression problem we predict a real-valued output using existing data that is the "right answer" for each example in the data. Furthermore, we can represent the data with a hypothesis function and use a cost function (squared error function) to minimize the parameters of the hypothesis.
 
-![Figure 2. Example of linear regression and hypothesis](photos/linearreg.jpg)
+<div align="center">
+	<img src="photos/linearreg.jpg">
+	<h3>Figure 2. Example of linear regression and hypothesis</h3>
+</div>
 
-### Figure 2. Example of linear regression and hypothesis
-
-![Figure 3. Cost function setup](photos/costfunctionsetup.jpg)
-
-### Figure 3. Cost function setup
+<div align="center">
+	<img src="photos/costfunctionsetup.jpg">
+	<h3>Figure 3. Cost function setup</h3>
+</div>
 
 A way of minimizing the cost function is to use the gradient descent method. Gradient descent is an optimization algorithm used to find the values of parameters (coefficients) of a function (f) that minimizes a cost function (cost).
 
-![Figure 4. Example of gradient descent](photos/gradientdescent.jpg)
-
-### Figure 4. Example of gradient descent
+<div align="center">
+	<img src="photos/gradientdescent.jpg">
+	<h3>Figure 4. Example of gradient descent</h3>
+</div>
 
 ## Linear Algebra (Review)
 
 Matrices and vectors
 * Dimensions of matrix: rows x columns
 
-![Figure 5. Matrix operations sheet](photos/matrix-operation-formula-algebra.jpg)
-
-### Figure 5. Matrix operations sheet
+<div align="center">
+	<img src="photos/matrix-operation-formula-algebra.jpg">
+	<h3>Figure 5. Matrix operations sheet</h3>
+</div>
