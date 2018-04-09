@@ -12,7 +12,7 @@ Machine Learning
 
 Examples:
 * Database mining: Large datasets from growth of automation/web. E.g., Web click data, medical records, biology, engineering
-* Applications can’t program by hand: E.g., Autonomous helicopter, handwriting recognition, most of Natural Language Processing (NLP), Computer Vision.
+* Applications can’t program by hand: E.g., Autonomous helicopter, handwriting recognition, most of Natural Language Processing (NLP), Computer Vision
 * Self-customizing programs: E.g., Amazon, Netflix product recommendations
 
 What is machine learning?
@@ -38,7 +38,7 @@ Two main types of machine learning algorithms:
 
 <div align="center">
 	<img src="photos/sup-vs-unsup.png">
-	<h3>Figure 1. Supervised learning versus unsupervised learning</h3>
+	<h3>Figure 1-1. Supervised learning versus unsupervised learning</h3>
 </div>
 
 ## Linear Regression with One Variable
@@ -47,19 +47,19 @@ In a linear regression problem we predict a real-valued output using existing da
 
 <div align="center">
 	<img src="photos/linearreg.jpg">
-	<h3>Figure 2. Example of linear regression and hypothesis</h3>
+	<h3>Figure 1-2. Example of linear regression and hypothesis</h3>
 </div>
 
 <div align="center">
 	<img src="photos/costfunctionsetup.jpg">
-	<h3>Figure 3. Cost function setup</h3>
+	<h3>Figure 1-3. Cost function setup</h3>
 </div>
 
 A way of minimizing the cost function is to use the gradient descent method. Gradient descent is an optimization algorithm used to find the values of parameters (coefficients) of a function (f) that minimizes a cost function (cost).
 
 <div align="center">
 	<img src="photos/gradientdescent.jpg">
-	<h3>Figure 4. Example of gradient descent</h3>
+	<h3>Figure 1-4. Example of gradient descent</h3>
 </div>
 
 ## Linear Algebra (Review)
@@ -69,5 +69,5 @@ Matrices and vectors
 
 <div align="center">
 	<img src="photos/matrix-operation-formula-algebra.jpg">
-	<h3>Figure 5. Matrix operations sheet</h3>
+	<h3>Figure 1-5. Matrix operations sheet</h3>
 </div>
