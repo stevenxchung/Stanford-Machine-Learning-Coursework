@@ -1,4 +1,4 @@
-# Machine Learning Week 2
+# Machine Learning Week 1
 
 In Week 1 we cover the following topics:
 * Linear Regression with One Variable
