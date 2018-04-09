@@ -37,22 +37,26 @@ Two main types of machine learning algorithms:
 	* Association problems: When we want to discover rules that describe large portions of our data e.g., people that buy X also tend to buy Y.
 
 ![Figure 1. Supervised learning versus unsupervised learning](photos/sup-vs-unsup.png)
-**Figure 1. Supervised learning versus unsupervised learning**
+
+### Figure 1. Supervised learning versus unsupervised learning
 
 ## Linear Regression with One Variable
 
 In a linear regression problem we predict a real-valued output using existing data that is the "right answer" for each example in the data. Furthermore, we can represent the data with a hypothesis function and use a cost function (squared error function) to minimize the parameters of the hypothesis.
 
 ![Figure 2. Example of linear regression and hypothesis](photos/linearreg.jpg)
-**Figure 2. Example of linear regression and hypothesis**
+
+### Figure 2. Example of linear regression and hypothesis
 
 ![Figure 3. Cost function setup](photos/costfunctionsetup.jpg)
-**Figure 3. Cost function setup**
+
+### Figure 3. Cost function setup
 
 A way of minimizing the cost function is to use the gradient descent method. Gradient descent is an optimization algorithm used to find the values of parameters (coefficients) of a function (f) that minimizes a cost function (cost).
 
 ![Figure 4. Example of gradient descent](photos/gradientdescent.jpg)
-**Figure 4. Example of gradient descent**
+
+### Figure 4. Example of gradient descent
 
 ## Linear Algebra (Review)
 
@@ -60,4 +64,5 @@ Matrices and vectors
 * Dimensions of matrix: rows x columns
 
 ![Figure 5. Matrix operations sheet](photos/matrix-operation-formula-algebra.jpg)
-**Figure 5. Matrix operations sheet**
+
+### Figure 5. Matrix operations sheet
