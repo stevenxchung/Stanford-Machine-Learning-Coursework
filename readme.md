@@ -251,14 +251,14 @@ In Week 5 we cover the following topics:
 A neural network classification problem could be represented as either a binary or multi-class classification:
 
 <div align="center">
-	<img src="photos/neuralnetclass.jpg">
+	<img src="Week 5/photos/neuralnetclass.jpg">
 	<h3>Figure 5-1. Neural network binary and multi-class classification</h3>
 </div>
 
 The cost function for a neural network could be represented as:
 
 <div align="center">
-  <img src="photos/costfunc.jpg">
+  <img src="Week 5/photos/costfunc.jpg">
   <h3>Figure 5-2. Neural network cost function</h3>
 </div>
 
@@ -267,7 +267,7 @@ Which turns out to be quite similar to the logistic regression cost function.
 The gradient computation takes in the same idea as before: we seek to minimize the cost function. Figure 5-3 depicts the general equation needed to compute the gradient descent of a neural network and minimize the cost function:
 
 <div align="center">
-  <img src="photos/neuralgrad.jpg">
+  <img src="Week 5/photos/neuralgrad.jpg">
   <h3>Figure 5-3. Gradient descent for a neural network</h3>
 </div>
 
@@ -280,7 +280,7 @@ In general, we forward propagate to get the output and compare it with the real 
 To summarize on how to train a neural network:
 
 <div align="center">
-  <img src="photos/steps.jpg">
+  <img src="Week 5/photos/steps.jpg">
   <h3>Figure 5-4. Training a neural network</h3>
 </div>
 
