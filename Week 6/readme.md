@@ -88,3 +88,14 @@ When it comes to neural networks:
 We typically use regularization to address overfitting for neural networks.
 
 ## Machine Learning System Design
+
+Suppose we build a spam classifier where x = features of email and y = spam or not spam (1 or 0). In practice, we would take the most frequently occurring n words (10,000 to 50,000) in training set, rather than manually pick 100 words.
+
+What is the best use of time to make it have low error?
+* Start with a simple algortihm that you can implement quickly then implment it and test on cross validation data
+* Plot learning curves to decide if more data, more features, etc. are likely to help
+* Error analysis: manually examine the examples (cross validation set) that your algorithm made errors on then see if you spot any systematic trend in what type of example it is making errors on
+
+For error metrics, we can use a cancer classification example where we have 1% error on test set where only 0.5% of patients have cancer. In this case we introduce precision and recall:
+* Precision: Of all patients where we predicted y = 1, what fraction actually has cancer?
+* Recall: Of all patients that actually have cancer, what fraction did we correctly detect as having cancer?
