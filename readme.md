@@ -422,14 +422,14 @@ Given a set of training examples, each marked as belonging to one or the other o
 We can start by exploring an alternate logistic regression algorithm depicted in Figure 7-1.
 
 <div align="center">
-  <img src="photos/svmlog.jpg">
+  <img src="Week 7/photos/svmlog.jpg">
   <h3>Figure 7-1. Alternative logistic regression algorithm</h3>
 </div>
 
 In comparison, the SVM hypothesis can be written as follows:
 
 <div align="center">
-  <img src="photos/svmhypo.jpg">
+  <img src="Week 7/photos/svmhypo.jpg">
   <h3>Figure 7-2. Support vector machine hypothesis</h3>
 </div>
 
@@ -438,7 +438,7 @@ If we look within the brackets of the equation depicted in Figure 7-2, we can ex
 * When y(i) = 0, we want the term within the cost function to be less than or equal to -1
 
 <div align="center">
-  <img src="photos/svmbound.jpg">
+  <img src="Week 7/photos/svmbound.jpg">
   <h3>Figure 7-3. Visual representation of a support vector machine decision boundary</h3>
 </div>
 
@@ -447,7 +447,7 @@ We can use a SVM as a [large margin classifier](http://www.cs.colostate.edu/~cs5
 In machine learning, kernel methods are a class of algorithms for pattern analysis, whose best known member is the SVM. The general task of pattern analysis is to find and study general types of relations (e.g. clusters, rankings, principal components, correlations, classifications) in datasets.
 
 <div align="center">
-  <img src="photos/svmkernel.jpg">
+  <img src="Week 7/photos/svmkernel.jpg">
   <h3>Figure 7-4. Example of a kernel method</h3>
 </div>
 
@@ -461,7 +461,7 @@ To use kernels with SVMs simply refer to Figure 7-2 and replace the x(i) terms w
 SVM parameters are chosen based on the following factors:
 
 <div align="center">
-  <img src="photos/svmkernel.jpg">
+  <img src="Week 7/photos/svmkernel.jpg">
   <h3>Figure 7-5. Support vector machine parameters and observations</h3>
 </div>
 
