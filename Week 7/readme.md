@@ -5,7 +5,7 @@ In Week 7 we cover the following topics:
 
 ## Support Vector Machines
 
-Support vector machines (SVMs) are supervised learning models with associated leanring algorithms that analyze data used for classification and regression analysis.
+Support vector machines (SVMs) are supervised learning models with associated learning algorithms that analyze data used for classification and regression analysis.
 
 Given a set of training examples, each marked as belonging to one or the other of two categories, an SVM training algorithm builds a model that assigns new examples to one category or the other, making it a non-probabilistic binary linear classifier.
 
