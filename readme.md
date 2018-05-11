@@ -509,7 +509,7 @@ Some applications of clustering include:
 The K-means algorithm is one of the algorithms used for clustering. K is the number of clusters and the training set can me any number from 1 to m training sets. The steps to the K-means algorithm is highlighted in Figure 8-1.
 
 <div align="center">
-  <img src="photos/k-means.jpg">
+  <img src="Week 8/photos/k-means.jpg">
   <h3>Figure 8-1. K-means algorithm set-up</h3>
 </div>
 
@@ -528,7 +528,7 @@ Dimensionality reduction is in the process of reducing the number of random vari
 The main linear technique for dimensionality reduction is principal component analysis (PCA). PCA performs a linear mapping of the data to a lower-dimension space in such a way that the variance of the data in the low-dimensional representation is maximized.
 
 <div align="center">
-  <img src="photos/pca.jpg">
+  <img src="Week 8/photos/pca.jpg">
   <h3>Figure 8-2. Principal Component Analysis (PCA) Formulation</h3>
 </div>
 
