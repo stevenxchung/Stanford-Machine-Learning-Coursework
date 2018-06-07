@@ -598,7 +598,7 @@ In general, when conduction error analysis on anomaly detection we generally wan
 We can also compare the original model for anomaly detection against a multivariate Gaussian distribution model in Figure 9-4.
 
 <div align="center">
-  <img src="photos/omvsmg.jpg">
+  <img src="Week 9/photos/omvsmg.jpg">
   <h3>Figure 9-4. Original model vs multivariate Gaussian</h3>
 </div>
 
