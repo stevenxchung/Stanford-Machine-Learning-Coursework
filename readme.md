@@ -568,14 +568,14 @@ Anomalies can be classified as:
 Figure 9-1 depicts an example of how anomaly detection could be setup.
 
 <div align="center">
-  <img src="photos/fraud.jpg">
+  <img src="Week 9/photos/fraud.jpg">
   <h3>Figure 9-1. Fraud detection</h3>
 </div>
 
 We can use Gaussian distribution to find any outliers in our data. Additionally, we can also use density estimation (the construction of an estimate based on observed data of an unobservable underlying probability density function) to build our anomaly detection algorithm as shown in Figure 9-2.
 
 <div align="center">
-  <img src="photos/asetup.jpg">
+  <img src="Week 9/photos/asetup.jpg">
   <h3>Figure 9-2. Anomaly detection algorithm</h3>
 </div>
 
@@ -589,7 +589,7 @@ We can first fit our model to our training set and then on a cross validation te
 The differences between anomaly detection (recall that anomaly detection is an unsupervised learning technique) and supervised learning is shown in Figure 9-3.
 
 <div align="center">
-  <img src="photos/advssuper.jpg">
+  <img src="Week 9/photos/advssuper.jpg">
   <h3>Figure 9-3. Anomaly detection versus supervised learning</h3>
 </div>
 
@@ -615,14 +615,14 @@ Recommender systems typically produce a list of recommendations in one of two wa
 Figure 9-5 shows what the algorithm could look like for a content-based recommendation.
 
  <div align="center">
-  <img src="photos/contentrec.jpg">
+  <img src="Week 9/photos/contentrec.jpg">
   <h3>Figure 9-5. Optimization for content-based recommendation</h3>
 </div>
 
 Collaborative filtering works differently by minimizing the training set data (x) and the parameters (theta) simultaneously. Figure 9-6 shows how one could setup the algorithm for such a problem.
 
  <div align="center">
-  <img src="photos/collabfilter.jpg">
+  <img src="Week 9/photos/collabfilter.jpg">
   <h3>Figure 9-6. Collaborative filtering algorithm</h3>
 </div>
 
