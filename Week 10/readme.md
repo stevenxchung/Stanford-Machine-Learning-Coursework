@@ -60,7 +60,7 @@ Figure 10-4 shows how we might implement map-reduce for a batch gradient descent
 
 After each temp variables have been calculated, a "master server" will combine results of all temp variables to produce the final result.
 
-Many learning algorithms can be expressed as computing sumbs of functions over the training set.
+Many learning algorithms can be expressed as computing sums of functions over the training set.
 
 Figure 10-5 shows an example of what map-reduce would look like on a multi-core machine.
 
