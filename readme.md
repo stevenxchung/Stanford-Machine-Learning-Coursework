@@ -75,7 +75,7 @@ Two main types of machine learning algorithms:
 	* Association problems: When we want to discover rules that describe large portions of our data e.g., people that buy X also tend to buy Y.
 
 <div align="center">
-	<img src="Week 1/photos/sup-vs-unsup.png">
+	<img src="Week 01/photos/sup-vs-unsup.png">
 	<h3>Figure 1-1. Supervised learning versus unsupervised learning</h3>
 </div>
 
@@ -84,19 +84,19 @@ Two main types of machine learning algorithms:
 In a linear regression problem we predict a real-valued output using existing data that is the "right answer" for each example in the data. Furthermore, we can represent the data with a hypothesis function and use a cost function (squared error function) to minimize the parameters of the hypothesis.
 
 <div align="center">
-	<img src="Week 1/photos/linearreg.jpg">
+	<img src="Week 01/photos/linearreg.jpg">
 	<h3>Figure 1-2. Example of linear regression and hypothesis</h3>
 </div>
 
 <div align="center">
-	<img src="Week 1/photos/costfunctionsetup.jpg">
+	<img src="Week 01/photos/costfunctionsetup.jpg">
 	<h3>Figure 1-3. Cost function setup</h3>
 </div>
 
 A way of minimizing the cost function is to use the gradient descent method. Gradient descent is an optimization algorithm used to find the values of parameters (coefficients) of a function (f) that minimizes a cost function (cost).
 
 <div align="center">
-	<img src="Week 1/photos/gradientdescent.jpg">
+	<img src="Week 01/photos/gradientdescent.jpg">
 	<h3>Figure 1-4. Example of gradient descent</h3>
 </div>
 
@@ -106,7 +106,7 @@ Matrices and vectors
 * Dimensions of matrix: rows x columns
 
 <div align="center">
-	<img src="Week 1/photos/matrix-operation-formula-algebra.jpg">
+	<img src="Week 01/photos/matrix-operation-formula-algebra.jpg">
 	<h3>Figure 1-5. Matrix operations sheet</h3>
 </div>
 
@@ -123,14 +123,14 @@ In Week 2 we cover the following topics:
 Linear regression with multiple variables is not too different than linear regression for single variables. When dealing with multiple variables, we must change the hypothesis, cost function, and gradient descent algorithm to represent multiple features. One way to do this is by using vector notation. An example of linear regression with multiple variables setup is denoted in Figure 2-1.
 
 <div align="center">
-	<img src="Week 2/photos/linearregwmultivar.jpg">
+	<img src="Week 02/photos/linearregwmultivar.jpg">
 	<h3>Figure 2-1. Linear regression with multiple variables setup</h3>
 </div>
 
 Feature scaling: make sure features are on a similar scale. One technique used to accomplish this is by using [mean normalization](https://en.wikipedia.org/wiki/Normalization_(statistics)). Feature scaling could drastically change the appearance of a graph and therefore, drastically improve the precision accuracy of a model (see Figure 2-2 for impacts of feature scaling).
 
 <div align="center">
-	<img src="Week 2/photos/featurescale.jpg">
+	<img src="Week 02/photos/featurescale.jpg">
 	<h3>Figure 2-1. Unscaled results versus scaled results</h3>
 </div>
 
@@ -145,7 +145,7 @@ Other regression techniques:
 * Normal equation: Method to solve for the function parameters (commonly denoted by theta) analytically.
 
 <div align="center">
-	<img src="Week 2/photos/gradvsnorm.jpg">
+	<img src="Week 02/photos/gradvsnorm.jpg">
 	<h3>Figure 2-3. Gradient descent versus normal equation</h3>
 </div>
 
@@ -164,21 +164,21 @@ Logistic regression is intended for binary (two-class) classification problems. 
 A logistic regression model could be represented as follows:
 
 <div align="center">
-	<img src="Week 3/photos/logregmodel.jpg">
+	<img src="Week 03/photos/logregmodel.jpg">
 	<h3>Figure 3-1. Logistic regression model</h3>
 </div>
 
 We can use a decision boundary to make predictions:
 
 <div align="center">
-	<img src="Week 3/photos/dbound.jpg">
+	<img src="Week 03/photos/dbound.jpg">
 	<h3>Figure 3-2. Logistic regression decision boundary setup</h3>
 </div>
 
 Additionally, the cost function and gradient descent algorithm for logistic regression looks fairly similar to that of linear regression:
 
 <div align="center">
-	<img src="Week 3/photos/costandgrad.jpg">
+	<img src="Week 03/photos/costandgrad.jpg">
 	<h3>Figure 3-3. Logistic regression cost function and gradient descent</h3>
 </div>
 
@@ -187,7 +187,7 @@ In addition to linear and logistic regression techniques, we can also use optimi
 Multi-class classification: When there is more than one class, we can apply the one-vs-all method:
 
 <div align="center">
-	<img src="Week 3/photos/onevsall.jpg">
+	<img src="Week 03/photos/onevsall.jpg">
 	<h3>Figure 3-4. Multi-class classification: one-vs-all method</h3>
 </div>
 
@@ -206,7 +206,7 @@ To address overfitting we can do the following:
 The cost function for regularization incudes an extra parameter to the cost function:
 
 <div align="center">
-	<img src="Week 3/photos/regular.jpg">
+	<img src="Week 03/photos/regular.jpg">
 	<h3>Figure 3-5. Regularization</h3>
 </div>
 
@@ -228,7 +228,7 @@ Neural networks originated from algorithms that try to mimic the brain. The use 
 A neural network could be represented as follows:
 
 <div align="center">
-	<img src="Week 4/photos/neuralnet.jpg">
+	<img src="Week 04/photos/neuralnet.jpg">
 	<h3>Figure 4-1. Neural network model</h3>
 </div>
 
@@ -237,7 +237,7 @@ Where the activation terms denoted by "a" occur in layer 2 to layer n (hidden la
 When trying to classify more than one output units a representation model could look like this:
 
 <div align="center">
-	<img src="Week 4/photos/onevsall.jpg">
+	<img src="Week 04/photos/onevsall.jpg">
 	<h3>Figure 4-2. Neural network model: one-vs-all</h3>
 </div>
 
@@ -253,14 +253,14 @@ In Week 5 we cover the following topics:
 A neural network classification problem could be represented as either a binary or multi-class classification:
 
 <div align="center">
-	<img src="Week 5/photos/neuralnetclass.jpg">
+	<img src="Week 05/photos/neuralnetclass.jpg">
 	<h3>Figure 5-1. Neural network binary and multi-class classification</h3>
 </div>
 
 The cost function for a neural network could be represented as:
 
 <div align="center">
-  <img src="Week 5/photos/costfunc.jpg">
+  <img src="Week 05/photos/costfunc.jpg">
   <h3>Figure 5-2. Neural network cost function</h3>
 </div>
 
@@ -269,7 +269,7 @@ Which turns out to be quite similar to the logistic regression cost function.
 The gradient computation takes in the same idea as before: we seek to minimize the cost function. Figure 5-3 depicts the general equation needed to compute the gradient descent of a neural network and minimize the cost function:
 
 <div align="center">
-  <img src="Week 5/photos/neuralgrad.jpg">
+  <img src="Week 05/photos/neuralgrad.jpg">
   <h3>Figure 5-3. Gradient descent for a neural network</h3>
 </div>
 
@@ -282,7 +282,7 @@ In general, we forward propagate to get the output and compare it with the real 
 To summarize on how to train a neural network:
 
 <div align="center">
-  <img src="Week 5/photos/steps.jpg">
+  <img src="Week 05/photos/steps.jpg">
   <h3>Figure 5-4. Training a neural network</h3>
 </div>
 
@@ -311,14 +311,14 @@ A diagnostic is a test you can run to gain insight what is/isn't working with a 
 The training/testing procedure for linear regression is depicted in Figure 6-1.
 
 <div align="center">
-  <img src="Week 6/photos/trainlinreg.jpg">
+  <img src="Week 06/photos/trainlinreg.jpg">
   <h3>Figure 6-1. Training/testing procedure for linear regression</h3>
 </div>
 
 Likewise, the training/testing procedure for logistic regression is as follows:
 
 <div align="center">
-  <img src="Week 6/photos/trainlogreg.jpg">
+  <img src="Week 06/photos/trainlogreg.jpg">
   <h3>Figure 6-2. Training/testing procedure for logistic regression</h3>
 </div>
 
@@ -329,7 +329,7 @@ What does it mean when we say our model has bias or variance?
 Figure 6-3 depicts an example of bias and variance
 
 <div align="center">
-  <img src="Week 6/photos/biasandvar.jpg">
+  <img src="Week 06/photos/biasandvar.jpg">
   <h3>Figure 6-3. Example of bias and variance</h3>
 </div>
 
@@ -340,7 +340,7 @@ There are two types of errors we care about when dealing with bias and variance:
 The training error can be represented as a function whose error decreases with additional polynomial terms. In contrast, the cross validation error can be represented as a parabolic function where there is a specific degree of polynomial terms that would yield a minimum error.
 
 <div align="center">
-  <img src="Week 6/photos/trainvscross.jpg">
+  <img src="Week 06/photos/trainvscross.jpg">
   <h3>Figure 6-4. Training error versus cross validation error</h3>
 </div>
 
@@ -355,14 +355,14 @@ When the learning algorithm has variance:
 Linear regression with regularization also has bias or variance depending on the value of lambda.
 
 <div align="center">
-  <img src="Week 6/photos/regbiasandvar.jpg">
+  <img src="Week 06/photos/regbiasandvar.jpg">
   <h3>Figure 6-5. Example of bias and variance for regularized learning algorithms</h3>
 </div>
 
 Similar to the training error and cross validation error for non-regularized algorithms, regularized algorithms have a parabolic cross validation where a specific value of lambda minimizes the bias/variance. However, the bias increases as the lambda value is increased for the training error.
 
 <div align="center">
-  <img src="Week 6/photos/regtrainvscross.jpg">
+  <img src="Week 06/photos/regtrainvscross.jpg">
   <h3>Figure 6-6. Training error and cross validation error as a function of the regularization parameter</h3>
 </div>
 
@@ -422,14 +422,14 @@ Given a set of training examples, each marked as belonging to one or the other o
 We can start by exploring an alternate logistic regression algorithm depicted in Figure 7-1.
 
 <div align="center">
-  <img src="Week 7/photos/svmlog.jpg">
+  <img src="Week 07/photos/svmlog.jpg">
   <h3>Figure 7-1. Alternative logistic regression algorithm</h3>
 </div>
 
 In comparison, the SVM hypothesis can be written as follows:
 
 <div align="center">
-  <img src="Week 7/photos/svmhypo.jpg">
+  <img src="Week 07/photos/svmhypo.jpg">
   <h3>Figure 7-2. Support vector machine hypothesis</h3>
 </div>
 
@@ -438,7 +438,7 @@ If we look within the brackets of the equation depicted in Figure 7-2, we can ex
 * When y(i) = 0, we want the term within the cost function to be less than or equal to -1
 
 <div align="center">
-  <img src="Week 7/photos/svmbound.jpg">
+  <img src="Week 07/photos/svmbound.jpg">
   <h3>Figure 7-3. Visual representation of a support vector machine decision boundary</h3>
 </div>
 
@@ -447,7 +447,7 @@ We can use a SVM as a [large margin classifier](http://www.cs.colostate.edu/~cs5
 In machine learning, kernel methods are a class of algorithms for pattern analysis, whose best known member is the SVM. The general task of pattern analysis is to find and study general types of relations (e.g. clusters, rankings, principal components, correlations, classifications) in datasets.
 
 <div align="center">
-  <img src="Week 7/photos/svmkernel.jpg">
+  <img src="Week 07/photos/svmkernel.jpg">
   <h3>Figure 7-4. Example of a kernel method</h3>
 </div>
 
@@ -461,7 +461,7 @@ To use kernels with SVMs simply refer to Figure 7-2 and replace the x(i) terms w
 SVM parameters are chosen based on the following factors:
 
 <div align="center">
-  <img src="Week 7/photos/svmkernel.jpg">
+  <img src="Week 07/photos/svmkernel.jpg">
   <h3>Figure 7-5. Support vector machine parameters and observations</h3>
 </div>
 
@@ -509,7 +509,7 @@ Some applications of clustering include:
 The K-means algorithm is one of the algorithms used for clustering. K is the number of clusters and the training set can me any number from 1 to m training sets. The steps to the K-means algorithm is highlighted in Figure 8-1.
 
 <div align="center">
-  <img src="Week 8/photos/k-means.jpg">
+  <img src="Week 08/photos/k-means.jpg">
   <h3>Figure 8-1. K-means algorithm set-up</h3>
 </div>
 
@@ -528,7 +528,7 @@ Dimensionality reduction is in the process of reducing the number of random vari
 The main linear technique for dimensionality reduction is principal component analysis (PCA). PCA performs a linear mapping of the data to a lower-dimension space in such a way that the variance of the data in the low-dimensional representation is maximized.
 
 <div align="center">
-  <img src="Week 8/photos/pca.jpg">
+  <img src="Week 08/photos/pca.jpg">
   <h3>Figure 8-2. Principal Component Analysis (PCA) Formulation</h3>
 </div>
 
@@ -568,14 +568,14 @@ Anomalies can be classified as:
 Figure 9-1 depicts an example of how anomaly detection could be setup.
 
 <div align="center">
-  <img src="Week 9/photos/fraud.jpg">
+  <img src="Week 09/photos/fraud.jpg">
   <h3>Figure 9-1. Fraud detection</h3>
 </div>
 
 We can use Gaussian distribution to find any outliers in our data. Additionally, we can also use density estimation (the construction of an estimate based on observed data of an unobservable underlying probability density function) to build our anomaly detection algorithm as shown in Figure 9-2.
 
 <div align="center">
-  <img src="Week 9/photos/asetup.jpg">
+  <img src="Week 09/photos/asetup.jpg">
   <h3>Figure 9-2. Anomaly detection algorithm</h3>
 </div>
 
@@ -589,7 +589,7 @@ We can first fit our model to our training set and then on a cross validation te
 The differences between anomaly detection (recall that anomaly detection is an unsupervised learning technique) and supervised learning is shown in Figure 9-3.
 
 <div align="center">
-  <img src="Week 9/photos/advssuper.jpg">
+  <img src="Week 09/photos/advssuper.jpg">
   <h3>Figure 9-3. Anomaly detection versus supervised learning</h3>
 </div>
 
@@ -598,7 +598,7 @@ In general, when conduction error analysis on anomaly detection we generally wan
 We can also compare the original model for anomaly detection against a multivariate Gaussian distribution model in Figure 9-4.
 
 <div align="center">
-  <img src="Week 9/photos/omvsmg.jpg">
+  <img src="Week 09/photos/omvsmg.jpg">
   <h3>Figure 9-4. Original model vs multivariate Gaussian</h3>
 </div>
 
@@ -615,14 +615,14 @@ Recommender systems typically produce a list of recommendations in one of two wa
 Figure 9-5 shows what the algorithm could look like for a content-based recommendation.
 
  <div align="center">
-  <img src="Week 9/photos/contentrec.jpg">
+  <img src="Week 09/photos/contentrec.jpg">
   <h3>Figure 9-5. Optimization for content-based recommendation</h3>
 </div>
 
 Collaborative filtering works differently by minimizing the training set data (x) and the parameters (theta) simultaneously. Figure 9-6 shows how one could setup the algorithm for such a problem.
 
  <div align="center">
-  <img src="Week 9/photos/collabfilter.jpg">
+  <img src="Week 09/photos/collabfilter.jpg">
   <h3>Figure 9-6. Collaborative filtering algorithm</h3>
 </div>
 
@@ -650,7 +650,7 @@ Below is a figure which depicts improvements made to our model based on a large 
 
 Stochastic gradient descent (SGD), also known as incremental gradient descent, is an iterative method for optimizing a differentiable objective function, a stochastic approximation of gradient descent optimization.
 
-When the training set is enormous and no simple formulas exist, evaluating the sums of gradients becomes very expensive, because evaluating the gradient requires evaluating all the summand functions' gradients. To economize on the computational cost at every iteration, stochastic gradient descent samples a subset of summand functions at every step. This is very effective in the case of large-scale machine learning problems.
+When the training set is enorm0ous and no simple formulas exist, evaluating the sums of gradients becomes very expensive, because evaluating the gradient requires evaluating all the summand functions' gradients. To economize on the computational cost at every iteration, stochastic gradient descent samples a subset of summand functions at every step. This is very effective in the case of large-scale machine learning problems.
 
 Here are some things to note about SGD:
 * In SGD, before for-looping, you need to randomly shuffle the training examples.
